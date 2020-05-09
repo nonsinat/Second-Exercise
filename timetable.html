@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Timetable page</title>
+    <script src="https://kit.fontawesome.com/9339050507.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="home.html"><img src="ICON/home.png" width="20" height="20">
+            <label>Home</label></a>
+        <a href="register.html"><img src="ICON/register.png" width="20" height="20">
+            <label>Register</label></a>
+        <a class="active" href="timetable.html"><img src="ICON/timetable.png" width="20" height="20">
+            <label>Timetable</label></a>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <br> <br> <br>
+        <table border="1" style="border-collapse: collapse; width: 80%; height: 400px; margin: auto;">
+            <thead>
+                <tr height="50">
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td align="center" colspan="7">
+                            <h3>Morning</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <h3>7:30-9:00</h3>
+                        </td>
+                        <td align="center" rowspan="2">Web Design</td>
+                        <td align="center">Network</td>
+                        <td align="center">Soft Skill</td>
+                        <td align="center">Graphic Design</td>
+                        <td align="center">Biz Commerce</td>
+                        <td align="center">Small Biz Account </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <h3>9:15-10:45</h3>
+                        </td>
+                        <td align="center">Graphic Design</td>
+                        <td align="center">OOP</td>
+                        <td align="center" rowspan="2">Web Design</td>
+                        <td align="center">Network</td>
+                        <td align="center">Soft Skill</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <h3>11:00-12:30</h3>
+                        </td>
+                        <td align="center">French</td>
+                        <td align="center">English</td>
+                        <td align="center">Stock Management</td>
+                        <td align="center">Free</td>
+                        <td align="center">Sport</td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="7">
+                            <h3>Afternoon</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <h3>1:00-2:30</h3>
+                        </td>
+                        <td align="center" colspan="4" rowspan="2">
+                            <h3>Free</h3>
+                        </td>
+                        <td align="center">Englsih</td>
+                        <td align="center">English</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <h3>2:45-4:00</h3>
+                        </td>
+                        <td align="center">Fe</td>
+                        <td align="center">English</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </div>
+</body>
+
+</html>
